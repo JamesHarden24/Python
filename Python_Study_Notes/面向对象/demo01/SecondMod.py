@@ -21,7 +21,7 @@ class ThirdClass(SecondClass):
 		self.Data = value
 
 	def __add__(self, other):
-		return ThirdClass(self.Data + other.Data)
+		return ThirdClass(self.Data + other)
 th1 = ThirdClass(60)
 th2 = ThirdClass(80)
 th3 = th1 + th2
